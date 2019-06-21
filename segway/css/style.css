@@ -722,6 +722,18 @@ margin-left: 10px;}
 .project-image p {
     margin-top: 3%;
 }
+
+.project-image-fit {
+  float: left; 
+}
+.project-image-fit img{
+     width: 320px ;
+	 height: 480px;
+}
+.project-image-fit p {
+    margin-top: 3%;
+}
+
 .project-info {
   position: absolute;
   top: 50%;
@@ -762,6 +774,22 @@ margin-left: 10px;}
          text-align: center;
      }
      .project-image p {
+         margin-top: 10%;
+     }
+}
+
+ @media screen and (max-width: 1200px) {
+     .project-image-fit{
+         width: auto;
+     }
+     .project-image-fit img{
+     width: 320px ;
+	 height: 480px ;
+     }
+     .project-image-fit h3 {
+         text-align: center;
+     }
+     .project-image-fit p {
          margin-top: 10%;
      }
 }
