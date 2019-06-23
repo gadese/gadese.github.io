@@ -46,11 +46,17 @@ x{
     backface-visibility: visible;
 }
 
-h1, h4, h5, h6 {
+h1, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
+  
+h4{
+  color: #000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 30px 40px; }
 
 h2{
     color: #000;
@@ -62,7 +68,7 @@ h3{
     color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 200;
-  margin: 0 0 30px 0;
+  margin: 0 0 30px 40px;
 }
 
 figure {
@@ -104,7 +110,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-  background: #FF722C;
+  background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }

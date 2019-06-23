@@ -117,7 +117,7 @@ figure {
   width: 300px;
   position: fixed;
   z-index: 1001;
-  background: #FF722C;
+  background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
