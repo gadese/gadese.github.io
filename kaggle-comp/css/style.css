@@ -36,7 +36,13 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
+  margin-left: 0px;
+    color: black;
+}
+para {
+  margin-bottom: 1em;
+  margin-left: 40px;
     color: black;
 }
 x{
@@ -46,11 +52,23 @@ x{
     backface-visibility: visible;
 }
 
-h1, h4, h5 {
+h1 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
+  
+h4 {
+  color: #000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 30px 40px; }
+  
+h5 {
+  color: #000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 30px 40px; }
 
 h2{
     color: #000;
@@ -62,7 +80,7 @@ h3{
     color: #000;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 200;
-  margin: 0 0 30px 0;
+  margin: 0 0 30px 40px;
 }
 
 h6 {
