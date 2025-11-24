@@ -9,6 +9,7 @@ colorClass: color-3
 iconClass: icon-cog-outline
 titleHtml: "Robot control<br>with facetracking"
 enabled: true
+featured: true
 order: 30
 description: "Proof-of-concept robot arm control using facial expression recognition."
 keywords: "robotics, computer vision, facial recognition, assistive technology"

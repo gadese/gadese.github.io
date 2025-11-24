@@ -1439,6 +1439,14 @@ align-items: stretch;}
     -webkit-box-shadow: none;
     box-shadow: none; }
 
+.view-more-link {
+  margin-top: 20px;
+}
+
+.back-to-home {
+  margin-bottom: 20px;
+}
+
 .form-control {
   -webkit-appearance: none;
   -moz-appearance: none;

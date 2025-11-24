@@ -9,17 +9,21 @@
 			<a href="{{ "/CVMarch2021-General.docx" | relative_url }}">Personal resume</a><br>
 		</p>
 	</div>
-	<nav id="colorlib-main-menu" role="navigation" class="navbar">
-		<div id="navbar" class="collapse">
-			<ul>
-				{% assign nav_items = site.data.navigation | sort: "order" %}
-				{% for nav in nav_items %}
-				<li><a href="#" data-nav-section="{{ nav.section }}">{{ nav.label }}</a></li>
-				{% endfor %}
-				<br>
-				<br>
-			</ul>
+ 	<nav id="colorlib-main-menu" role="navigation" class="navbar">
+	   	<div id="navbar" class="collapse">
+	   		<ul>
+	   			{% assign nav_items = site.data.navigation | sort: "order" %}
+	   			{% for nav in nav_items %}
+	   				{% if nav.section contains '-page' %}
+	   					{% assign page_slug = nav.section | remove: '-page' %}
+	   					<li><a href="{{ '/' | append: page_slug | append: '/' | relative_url }}" class="external">{{ nav.label }}</a></li>
+	   				{% else %}
+	   					<li><a href="#" data-nav-section="{{ nav.section }}">{{ nav.label }}</a></li>
+	   				{% endif %}
+	   			{% endfor %}
+	   			<br>
+	   			<br>
+	   		</ul>
 		</div>
 	</nav>
 </aside>
-

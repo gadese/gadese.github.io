@@ -31,9 +31,8 @@ layout: default
 							    <h3>Completed projects<small>(Click to see details)</small></h3>
 							</div>
 				        </div>
-				        </div>
 				        <div id="completed-projects-container">
-				            {% assign projects = site.projects | where: "enabled", true | sort: "order" %}
+				            {% assign projects = site.projects | where: "featured", true | sort: "order" %}
 				            {% if projects.size > 0 %}
 				            {% for project in projects %}
 				            {% assign mod = forloop.index0 | modulo: 4 %}
@@ -55,6 +54,11 @@ layout: default
 				            {% endif %}
 				            {% endfor %}
 				            {% endif %}
+				        </div>
+				        <div class="row">
+				        	<div class="col-md-12 text-center">
+				        		<a href="{{ '/projects/' | relative_url }}" class="btn btn-primary view-more-link">See All Projects</a>
+				        	</div>
 				        </div>
 				        <div class="row">
 					        <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
@@ -106,8 +110,9 @@ layout: default
 					</div>
 					<div class="row">
 						<div class="col-md-12">
-					         <div class="timeline-centered">
-						         {% assign experiences = site.experience | sort: 'order' %}
+						         <div class="timeline-centered">
+						         {% assign experiences_all = site.experience | sort: 'order' %}
+						         {% assign experiences = experiences_all | where: "category", "work" %}
 						         {% for exp in experiences %}
 						         <article class="timeline-entry animate-box" data-animate-effect="{{ exp.animate_effect }}">
 						            <div class="timeline-entry-inner">
@@ -130,6 +135,11 @@ layout: default
 						      </div>
 						   </div>
 					   </div>
+					   <div class="row">
+							<div class="col-md-12 text-center">
+								<a href="{{ '/work-experience/' | relative_url }}" class="btn btn-primary view-more-link">View Full Experience</a>
+							</div>
+						</div>
 					</div>
 		</section>
 
@@ -151,11 +161,11 @@ layout: default
 									<div class="panel panel-default">
 										    <div class="panel-heading" role="tab" id="heading{{ edu.panel_id }}">
 										        <h4 class="panel-title">
-										            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ edu.panel_id }}" aria-expanded="false" aria-controls="collapse{{ edu.panel_id }}">{{ edu.title }}
+										            <a class="{% if edu.panel_id != 'Five' %}collapsed{% endif %}" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ edu.panel_id }}" aria-expanded="{% if edu.panel_id == 'Five' %}true{% else %}false{% endif %}" aria-controls="collapse{{ edu.panel_id }}">{{ edu.title }}
 										            </a>
 										        </h4>
 										    </div>
-										    <div id="collapse{{ edu.panel_id }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ edu.panel_id }}">
+										    <div id="collapse{{ edu.panel_id }}" class="panel-collapse collapse{% if edu.panel_id == 'Five' %} in{% endif %}" role="tabpanel" aria-labelledby="heading{{ edu.panel_id }}">
 										        <div class="panel-body">
                                                 {{ edu.body_html }}
 										        </div>
@@ -165,44 +175,15 @@ layout: default
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-		</section>    
-
-	<section class="colorlib-contact" data-section="awards">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<h2>Awards &amp; Scholarships</h2>
-								<hr>
-									<ul>
-									  {% for category in site.data.awards %}
-									  <li>{{ category.category }}
-											<ul>
-											  {% for item in category.items %}
-											  <li>{{ item.name }}
-											  {% if item.bullets %}
-												<ul>
-													{% for b in item.bullets %}
-													<li>{{ b }}</li>
-													{% endfor %}
-												</ul>
-											  {% endif %}
-											  </li>
-											  {% endfor %}
-											</ul>
-									  </li>
-									  {% endfor %}
-									</ul>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<a href="{{ '/education/' | relative_url }}" class="btn btn-primary view-more-link">View Full Education</a>
 							</div>
 						</div>
 					</div>
 				</div>
-	</section>
-		
-			
-			
+		</section>    
+
 	<section class="colorlib-skills" data-section="skills">
 		<div class="colorlib-narrow-content">
 			<div class="row">

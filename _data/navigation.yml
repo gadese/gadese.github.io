@@ -7,12 +7,18 @@
 - section: education
   label: Education
   order: 30
-- section: awards
-  label: Awards & Scholarships
-  order: 40
 - section: skills
   label: Skills
-  order: 50
+  order: 40
 - section: contact
   label: Contact
+  order: 50
+- section: work-experience-page
+  label: Work Experience (Full)
   order: 60
+- section: education-page
+  label: Education (Full)
+  order: 70
+- section: projects-page
+  label: Projects
+  order: 80
