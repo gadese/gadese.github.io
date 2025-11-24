@@ -6,4 +6,4 @@ collections:
   education:
     output: true
   projects:
-    output: false
+    output: true
