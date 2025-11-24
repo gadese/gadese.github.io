@@ -861,6 +861,11 @@ margin-left: 10px;}
   font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px; }
 
+.progress-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .colorlib-skills .col-md-6.animate-box {
   padding-left: 25px;
   padding-right: 25px;
