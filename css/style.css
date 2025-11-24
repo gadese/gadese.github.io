@@ -102,6 +102,7 @@ figure {
   float:left;
   width: 300px;
   position: fixed;
+  left: 0;
   z-index: 1001;
     background-color: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -262,18 +263,20 @@ figure {
             color: black; }
 
 .container-wrap {
-  max-width: 1170px;
-  margin: 0 auto; }
+  width: 100%;
+  margin: 0; }
 
 #colorlib-main {
   width: calc(100% - 300px);
-  float: right;
+  margin-left: 300px;
+  float: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
+      margin-left: 0;
       padding: 0 1em; } }
 
 #colorlib-hero {

@@ -1,1 +1,9 @@
 theme: jekyll-theme-slate
+
+collections:
+  experience:
+    output: true
+  education:
+    output: true
+  projects:
+    output: false
