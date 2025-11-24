@@ -1,0 +1,18 @@
+- section: about
+  label: About
+  order: 10
+- section: experience
+  label: Work Experience
+  order: 20
+- section: education
+  label: Education
+  order: 30
+- section: awards
+  label: Awards & Scholarships
+  order: 40
+- section: skills
+  label: Skills
+  order: 50
+- section: contact
+  label: Contact
+  order: 60

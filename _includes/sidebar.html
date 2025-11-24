@@ -1,0 +1,25 @@
+<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+	<div class="text-center">
+		<div class="author-img" style="background-image: url({{ "/images/photoGabrielDescoteauxCropped.png" | relative_url }});"></div>
+		<h1 id="colorlib-logo"><a href="https://gadese.github.io">Gabriel Descoteaux</a></h1>
+		<p><strong>Research Scientist in NLP<br>Nuance Communications</strong></p>
+		<p><strong>Graduated M.Sc Student in Robotics<br>Polytechnique Montreal</strong></p>
+		<p>
+			<a href="https://github.com/gadese" target="_blank">Personal GitHub</a><br>
+			<a href="{{ "/CVMarch2021-General.docx" | relative_url }}">Personal resume</a><br>
+		</p>
+	</div>
+	<nav id="colorlib-main-menu" role="navigation" class="navbar">
+		<div id="navbar" class="collapse">
+			<ul>
+				{% assign nav_items = site.data.navigation | sort: "order" %}
+				{% for nav in nav_items %}
+				<li><a href="#" data-nav-section="{{ nav.section }}">{{ nav.label }}</a></li>
+				{% endfor %}
+				<br>
+				<br>
+			</ul>
+		</div>
+	</nav>
+</aside>
+

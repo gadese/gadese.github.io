@@ -1,0 +1,60 @@
+- name: "Tensorflow/Keras"
+  value: 90
+  label_percent: "90%"
+  color_class: "color-1"
+  animate_effect: "fadeInRight"
+- name: "Python(numpy, pandas, sklearn, etc.)"
+  value: 90
+  label_percent: "90%"
+  color_class: "color-2"
+  animate_effect: "fadeInLeft"
+- name: "C/C++"
+  value: 70
+  label_percent: "7%"
+  color_class: "color-3"
+  animate_effect: "fadeInLeft"
+- name: "OpenCV"
+  value: 80
+  label_percent: "80%"
+  color_class: "color-4"
+  animate_effect: "fadeInRight"
+- name: "Git (Version control)"
+  value: 90
+  label_percent: "90%"
+  color_class: "color-5"
+  animate_effect: "fadeInLeft"
+- name: "Robot Operating System (ROS)"
+  value: 80
+  label_percent: "80%"
+  color_class: "color-6"
+  animate_effect: "fadeInRight"
+- name: "Java"
+  value: 70
+  label_percent: "70%"
+  color_class: "color-7"
+  animate_effect: "fadeInLeft"
+- name: "Matlab/Simulink"
+  value: 90
+  label_percent: "90%"
+  color_class: "color-8"
+  animate_effect: "fadeInRight"
+- name: "LaTeX"
+  value: 75
+  label_percent: "75%"
+  color_class: "color-9"
+  animate_effect: "fadeInLeft"
+- name: "Controls & dynamics"
+  value: 90
+  label_percent: "90%"
+  color_class: "color-10"
+  animate_effect: "fadeInRight"
+- name: "Cooking Mexican cuisine"
+  value: 105
+  label_percent: "110%"
+  color_class: "color-11"
+  animate_effect: "fadeInLeft"
+- name: "MS Office"
+  value: 95
+  label_percent: "95%"
+  color_class: "color-12"
+  animate_effect: "fadeInRight"
