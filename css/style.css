@@ -449,6 +449,10 @@ body.offcanvas {
       padding-top: 2em;
       padding-bottom: 0em; } }
 
+section.colorlib-contact[data-section="contact"] {
+  padding-bottom: 4em;
+}
+
 #colorlib-footer2 {
     background: black;
     width: 100%;
@@ -856,6 +860,18 @@ margin-left: 10px;}
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px; }
+
+.colorlib-skills .col-md-6.animate-box {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-skills .col-md-6.animate-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 .progress {
   height: 6px;
