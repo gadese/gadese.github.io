@@ -1,0 +1,42 @@
+- category: "Research scholarships"
+  items:
+    - name: "Master Student Scholarship by the FRQNT (17 500$, 2019-2020)"
+    - name: "Alexander Graham Bell Canada Graduate Scholarships by the NSERC (17 500$, 2018-2019)"
+    - name: "Undergraduate Student Research Awards by the NSERC (4500$, 16 weeks in 2017)"
+    - name: "Undergraduate Student Research Awards by the NSERC (4500$, 16 weeks in 2016)"
+    - name: "Undergraduate Student Research Awards by the NSERC (4500$, 16 weeks in 2015)"
+    - name: "Undergraduate Initiation to Research Scholarship by Polytechnique Montreal (1500$, 80 hours in 2015-2016)"
+    - name: "Undergraduate Initiation to Research Scholarship by Polytechnique Montreal (1500$, 80 hours in 2016-2017)"
+    - name: "Undergraduate Initiation to Research Scholarship by Polytechnique Montreal (1500$, 80 hours in 2017-2018)"
+- category: "Scholarships & awards"
+  items:
+    - name: "J.A. DeSève award by Polytechnique Montreal (4000$, 2019)"
+      bullets:
+        - "Academic achievements"
+        - "Extracurricular Involvement"
+    - name: "CMC Electronics award by Polytechnique Montreal (2500$, Won twice: 2017 and 2018 )"
+      bullets:
+        - "Academic achievements"
+        - "Extracurricular Involvement"
+    - name: "Vedel award by Polytechnique Montreal (2000$, 2016)"
+      bullets:
+        - "Academic achievements"
+        - "Extracurricular Involvement"
+    - name: "Hatch Ltd. award by Polytechnique Montreal (2000$, 2015)"
+      bullets:
+        - "Academic achievements"
+        - "Extracurricular Involvement"
+    - name: "Entry Scholarship by Polytechnique Montreal (2500$, 2014)"
+      bullets:
+        - "Academic achievements in pre-university education"
+        - "Extracurricular Involvement"
+- category: "Others"
+  items:
+    - name: "2nd place at the Polytechnique Engineering Competition (2016)"
+      bullets:
+        - "2nd best performing team at the event (8 hours competition)"
+        - "Design and build a crane with an electromagnet to fetch objects on a workspace, using limited materiels"
+    - name: "2nd place at the Polytechnique Engineering Competition (2015)"
+      bullets:
+        - "2nd best performing team at the event (8 hours competition)"
+        - "Design and build a catapult, without electronics, to throw an object as far as possible"

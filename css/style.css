@@ -102,6 +102,7 @@ figure {
   float:left;
   width: 300px;
   position: fixed;
+  left: 0;
   z-index: 1001;
     background-color: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -262,18 +263,20 @@ figure {
             color: black; }
 
 .container-wrap {
-  max-width: 1170px;
-  margin: 0 auto; }
+  width: 100%;
+  margin: 0; }
 
 #colorlib-main {
   width: calc(100% - 300px);
-  float: right;
+  margin-left: 300px;
+  float: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
+      margin-left: 0;
       padding: 0 1em; } }
 
 #colorlib-hero {
@@ -445,6 +448,10 @@ body.offcanvas {
     .colorlib-contact {
       padding-top: 2em;
       padding-bottom: 0em; } }
+
+section.colorlib-contact[data-section="contact"] {
+  padding-bottom: 4em;
+}
 
 #colorlib-footer2 {
     background: black;
@@ -853,6 +860,23 @@ margin-left: 10px;}
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px; }
+
+.progress-wrap {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.colorlib-skills .col-md-6.animate-box {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-skills .col-md-6.animate-box {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 
 .progress {
   height: 6px;
@@ -1414,6 +1438,14 @@ align-items: stretch;}
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
     -webkit-box-shadow: none;
     box-shadow: none; }
+
+.view-more-link {
+  margin-top: 20px;
+}
+
+.back-to-home {
+  margin-bottom: 20px;
+}
 
 .form-control {
   -webkit-appearance: none;
