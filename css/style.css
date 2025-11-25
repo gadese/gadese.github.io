@@ -973,6 +973,72 @@ padding-top: 2px;}
       background: #a84cb8; }
     .progress-bar.color-9 span {
       color: #a84cb8; }
+  .progress-bar.color-10 {
+    background: #17a2b8; }
+    .progress-bar.color-10:after {
+      background: #17a2b8; }
+    .progress-bar.color-10 span {
+      color: #17a2b8; }
+  .progress-bar.color-11 {
+    background: #28a745; }
+    .progress-bar.color-11:after {
+      background: #28a745; }
+    .progress-bar.color-11 span {
+      color: #28a745; }
+  .progress-bar.color-12 {
+    background: #6f42c1; }
+    .progress-bar.color-12:after {
+      background: #6f42c1; }
+    .progress-bar.color-12 span {
+      color: #6f42c1; }
+  .progress-bar.color-13 {
+    background: #fd7e14; }
+    .progress-bar.color-13:after {
+      background: #fd7e14; }
+    .progress-bar.color-13 span {
+      color: #fd7e14; }
+  .progress-bar.color-14 {
+    background: #20c997; }
+    .progress-bar.color-14:after {
+      background: #20c997; }
+    .progress-bar.color-14 span {
+      color: #20c997; }
+  .progress-bar.color-15 {
+    background: #e83e8c; }
+    .progress-bar.color-15:after {
+      background: #e83e8c; }
+    .progress-bar.color-15 span {
+      color: #e83e8c; }
+  .progress-bar.color-16 {
+    background: #6610f2; }
+    .progress-bar.color-16:after {
+      background: #6610f2; }
+    .progress-bar.color-16 span {
+      color: #6610f2; }
+  .progress-bar.color-17 {
+    background: #007bff; }
+    .progress-bar.color-17:after {
+      background: #007bff; }
+    .progress-bar.color-17 span {
+      color: #007bff; }
+  .progress-bar.color-18 {
+    background: #dc3545; }
+    .progress-bar.color-18:after {
+      background: #dc3545; }
+    .progress-bar.color-18 span {
+      color: #dc3545; }
+  .progress-bar.color-19 {
+    background: #ffc107; }
+    .progress-bar.color-19:after {
+      background: #ffc107; }
+    .progress-bar.color-19 span {
+      color: #ffc107; }
+  .progress-bar.color-20 {
+    background: #343a40; }
+    .progress-bar.color-20:after {
+      background: #343a40; }
+    .progress-bar.color-20 span {
+      color: #343a40; }
 .progress-wrap h3{
 	padding-bottom: 14px;
 }
