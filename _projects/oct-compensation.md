@@ -45,7 +45,7 @@ keywords: "optical coherence tomography, biomedical imaging, optics"
 				<div class="project shadow-large">
 					<div class="project-image">
 						<h3>Results</h3>
-						<img src= "images/figure.jpg">
+						<img src="{{ "/assets/projects/oct-compensation/images/figure.jpg" | relative_url }}">
 						<p>As we can see on the figure above in (a) and (b), our technique allowed to get a much clearer picture of a cucumber. Also, in (c) and (d), we can see that there is much less dispersion. The peak is our object, while everything else is pretty much noise. Our technique allowed to reduce this noise by a good margin.<br><br>Due to confidentiality issues, I am not allowed to give details on the technique used.</p>
 					</div>
 				</div>

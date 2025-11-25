@@ -22,10 +22,10 @@ layout: default
 							    <h2>About Me</h2>
 							    <hr>
                                 <hr>
-                                    <p>I am currently a Research Scientist in Natural Language Processing at Nuance Communications. My role consists of developping, improving and maintaining deep learning NLP model. Additionally, I have a M.Sc. degree in rehabilitation robotics from Polytechnique Montreal. My experience and technical interests include robotics, controls, computer vision, artificial intelligence and autonomous vehicles (I am also a Space nerd!). <br><br>
-									With a strong mathematical and programming background, my main technical skills include Python(opencv, sklearn, numpy, pandas, etc.), deep learning with Keras and Tensorflow, C/C++, Matlab/Simulink, as well as Robot Operating System (ROS) and various other tools.<br><br>
-									I have had a chance to participate in multiple projects since I started studying engineering, some of them using the Agile method. I'm a dedicated and conscientious engineer, with strong leadership and teamwork skills and a profound desire to learn and improve.<br><br>
-									Outside of engineering, I also enjoy doing multiple things: I play volleyball and do calisthenics multiple times a week, I enjoy the outdoors and going hiking, I play drums in my offtime, and I particularly enjoy movies and books (Ask me about my favorites!).</p>
+                                    <p>I am currently an AI Scientist at Vooban, specializing in applied AI consulting. My role involves end-to-end delivery of AI solutions—from feasibility studies and solution design to development and production deployment. I work across a variety of domains including computer vision, audio processing, LLMs/VLMs, NLP, generative AI, and recommender systems, with a strong emphasis on building client-ready products. <br>I also have a M.Sc. degree in Robotics and Computer Vision from Polytechnique Montreal. My experience and technical interests include robotics, controls, computer vision, artificial intelligence, autonomous vehicles, and AI Ethics (I am also a Space nerd!). <br><br>
+									With a strong mathematical and programming background, my main technical skills include Python (OpenCV, scikit-learn, NumPy, pandas, pydantic, Hugging Face, etc.), deep learning with PyTorch and TensorFlow, LLMs/VLMs and prompt engineering, C/C++, Matlab/Simulink, Docker, MLOps tools, as well as Robot Operating System (ROS).<br><br>
+									I have had a chance to participate in multiple projects since I started studying engineering, many of them using Agile methods. I'm a dedicated and conscientious engineer, with strong leadership, teamwork, and technical communication skills, and a profound desire to learn and improve.<br><br>
+									Outside of engineering, I also enjoy doing multiple things: I play volleyball, do calisthenics and bouldering multiple times a week, I enjoy the outdoors—hiking and scuba diving—I play drums and chess in my offtime, and I particularly enjoy movies and books (Ask me about my favorites!).</p>
 								</div>
 								<div class="about-desc">
 							    <h3>Completed projects<small>(Click to see details)</small></h3>
@@ -63,7 +63,7 @@ layout: default
 				        <div class="row">
 					        <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 					            <div class="hire">
-								<h2>"I'm a dedicated and conscientious engineer, <br>with strong leadership and teamwork skills and <br>a profound desire to learn."</h2>
+								<h2>I also have a M.Sc. degree in Robotics and Computer Vision from Polytechnique Montreal. My experience and technical interests include robotics, controls, computer vision, artificial intelligence, autonomous vehicles, and AI Ethics (I am also a Space nerd!).</h2>
 								    <!--<a href="#" class="btn-hire">Hire me</a> -->
 					            </div>
 					        </div>
@@ -120,8 +120,14 @@ layout: default
 						                  <i class="{{ exp.icon }}"></i>
 						               </div>
 						               <div class="timeline-label">
-						               	<h2><a href="#">{{ exp.title }}</a> <span>{{ exp.period }}</span></h2>
-						                  {{ exp.body_html }}
+						               	<h2>
+						       		<a class="{% unless forloop.first %}collapsed{% endunless %}" data-toggle="collapse" href="#collapseExp{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="collapseExp{{ forloop.index }}">
+						       			{{ exp.title }} <span>{{ exp.period }}</span>
+						       		</a>
+						       	</h2>
+						       	<div id="collapseExp{{ forloop.index }}" class="collapse{% if forloop.first %} in{% endif %}">
+						       		{{ exp.body_html }}
+						       	</div>
 						               </div>
 						            </div>
 						         </article>

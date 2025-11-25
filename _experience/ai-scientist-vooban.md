@@ -1,7 +1,7 @@
 ---
 title: "AI Scientist"
 period: "2023-Present"
-icon: "icon-bubble3"
+icon: "icon-device-desktop"
 icon_color: "color-1"
 animate_effect: "fadeInRight"
 order: 53

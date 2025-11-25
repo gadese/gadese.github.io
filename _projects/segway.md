@@ -48,7 +48,7 @@ keywords: "controls, robotics, PID, Arduino"
 					<div class="project-image">
 						<h3>Demonstration</h3>
 						<video width="720" height="480" controls>
-							<source src="images/Segway_nosound_Medium.mp4" type="video/mp4">
+							<source src="{{ "/assets/projects/segway/images/Segway_nosound_Medium.mp4" | relative_url }}" type="video/mp4">
 						</video>
 						<p>Video demonstration<br>
 						</p>
@@ -59,7 +59,7 @@ keywords: "controls, robotics, PID, Arduino"
 				<div class="project shadow-large">
 					<div class="project-image-fit">
 						<h3>Initial prototype</h3>
-						<img src="images/robot.jpg">
+						<img src="{{ "/assets/projects/segway/images/robot.jpg" | relative_url }}">
 						</p>
 					</div>
 				</div>
@@ -68,9 +68,9 @@ keywords: "controls, robotics, PID, Arduino"
 				<div class="project shadow-large">
 					<div class="project-image-fit">
 						<h3>Schematics & free-body diagram</h3>
-						<img src="images/robotUpdate.png">
+						<img src="{{ "/assets/projects/segway/images/robotUpdate.png" | relative_url }}">
 						<p>Simplified robot schematics<br></p>
-						<img src="images/modeleRobot.jpg">							
+						<img src="{{ "/assets/projects/segway/images/modeleRobot.jpg" | relative_url }}">						
 						<p>Simplified free-body diagram</p>
 						</p>
 					</div>

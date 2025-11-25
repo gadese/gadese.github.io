@@ -1,7 +1,7 @@
 ---
 title: "Software Developer - Engineering Development Program"
 period: "2022-2023"
-icon: "icon-bubble3"
+icon: "icon-world"
 icon_color: "color-1"
 animate_effect: "fadeInRight"
 order: 54
