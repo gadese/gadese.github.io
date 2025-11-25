@@ -6,7 +6,7 @@ permalink: /speedsigns/speedsigns.html
 url: speedsigns/speedsigns.html
 colorClass: color-2
 iconClass: icon-waves
-titleHtml: "Object Detection:<br> Speed Signs"
+titleHtml: "CenterNet(Object Detection):<br> Speed Signs"
 enabled: true
 featured: true
 order: 20
