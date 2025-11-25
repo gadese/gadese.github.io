@@ -1733,3 +1733,30 @@ footer{
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+.project-image,
+.project-image-fit {
+  width: 100%;
+}
+
+.project-image img,
+.project-image video,
+.project-image iframe,
+.project-image-fit img,
+.project-image-fit video,
+.project-image-fit iframe {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.project {
+  overflow: hidden;
+}
+
+/* Project detail pages: allow project cards to grow with their content */
+#projects.background-alt .project {
+  height: auto;
+  min-height: 400px;
+  overflow: hidden;
+}

@@ -47,8 +47,8 @@ keywords: "robotics, ROS, computer vision, assistive technology"
 			<div class="row">
 				<div class="project shadow-large">
 					<div class="project-image">
-						<h3>Demo</a></h3>
-						<video width="720" height="480" controls>
+						<h3>Demo</h3>
+						<video style="width:100%; max-width:840px; height:auto;" controls>
 							<source src="{{ "/assets/projects/autonomous-feeding/images/carrot_broccoli_demo.mp4" | relative_url }}" type="video/mp4">
 						</video>
 						<p>Video demonstration<br>
@@ -61,10 +61,9 @@ keywords: "robotics, ROS, computer vision, assistive technology"
 					<div class="project-image-fit">
 						<h3>Computer vision: detecting food in a plate in 3D</h3>
 						<p>Given an image from the stereo camera, the system is able to find the 3D position of food in a plate<br></p>
-						<img src="{{ "/assets/projects/autonomous-feeding/images/carrots.png" | relative_url }}" style="width:400px;height:400px;">
+						<img src="{{ "/assets/projects/autonomous-feeding/images/carrots.png" | relative_url }}" style="width:100%; max-width:400px; height:auto;">
 						<br>
-						<img src="{{ "/assets/projects/autonomous-feeding/images/broccoli.png" | relative_url }}" style="width:400px;height:400px;">
-						</p>
+						<img src="{{ "/assets/projects/autonomous-feeding/images/broccoli.png" | relative_url }}" style="width:100%; max-width:400px; height:auto;">
 					</div>
 				</div>
 			</div>
@@ -72,9 +71,8 @@ keywords: "robotics, ROS, computer vision, assistive technology"
 				<div class="project shadow-large">
 					<div class="project-image-fit">
 						<h3>Obstacle avoidance</h3>
-						<img src="{{ "/assets/projects/autonomous-feeding/images/obstacle.png" | relative_url }}" style="width:400px;height:400px;">
+						<img src="{{ "/assets/projects/autonomous-feeding/images/obstacle.png" | relative_url }}" style="width:100%; max-width:400px; height:auto;">
 						<p>An example of a complex obstacle handled by the system. The goal is to grab the cylinder on the other side of the obstacle.<br></p>
-						</p>
 					</div>
 				</div>
 			</div>

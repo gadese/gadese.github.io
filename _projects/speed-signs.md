@@ -49,8 +49,7 @@ keywords: "computer vision, object detection, CenterNet, deep learning"
 				<div class="project shadow-large">
 					<div class="project-image-fit">
 						<h3>Example prediction</h3>
-						<img src="{{ "/assets/projects/speed-signs/images/Figure_3.png" | relative_url }}" style="width:1000px;height:500px;">
-						</p>
+						<img src="{{ "/assets/projects/speed-signs/images/Figure_3.png" | relative_url }}" style="width:100%; max-width:800px; height:auto;">
 					</div>
 				</div>
 			</div>
