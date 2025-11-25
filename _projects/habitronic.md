@@ -42,8 +42,8 @@ keywords: "embedded systems, sensors, biomechanics, PCB design"
 								<li>Took 1 year to complete</li>
 								<li>Required multiple big deliverables and presentations</li>
 							</ul>
-							<img src= images/gant01.png>
-							<img src= images/gant02.png>
+							<img src="{{ "/assets/projects/habitronic/images/gant01.png" | relative_url }}">
+							<img src="{{ "/assets/projects/habitronic/images/gant02.png" | relative_url }}">
 						</p>
 					</div>
 				</div>

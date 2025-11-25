@@ -1,60 +1,70 @@
-- name: "Tensorflow/Keras"
+- name: "PyTorch/Tensorflow"
   value: 90
   label_percent: "90%"
   color_class: "color-1"
   animate_effect: "fadeInRight"
-- name: "Python(numpy, pandas, sklearn, etc.)"
-  value: 90
-  label_percent: "90%"
+- name: "Python(numpy, pandas, sklearn, pydantic, etc.)"
+  value: 95
+  label_percent: "95%"
   color_class: "color-2"
   animate_effect: "fadeInLeft"
-- name: "C/C++"
-  value: 70
-  label_percent: "7%"
+- name: "Object-Oriented Programming & Programming Principles"
+  value: 85
+  label_percent: "85%"
   color_class: "color-3"
   animate_effect: "fadeInLeft"
-- name: "OpenCV"
-  value: 80
-  label_percent: "80%"
+- name: "C/C++"
+  value: 65
+  label_percent: "65%"
   color_class: "color-4"
+  animate_effect: "fadeInLeft"
+- name: "OpenCV & Traditional Computer Vision"
+  value: 85
+  label_percent: "85%"
+  color_class: "color-5"
   animate_effect: "fadeInRight"
-- name: "Git (Version control)"
+- name: "Git & Programming Tools"
   value: 90
   label_percent: "90%"
-  color_class: "color-5"
+  color_class: "color-6"
   animate_effect: "fadeInLeft"
+- name: "Robotics, controls & dynamics"
+  value: 90
+  label_percent: "90%"
+  color_class: "color-11"
+  animate_effect: "fadeInRight"
 - name: "Robot Operating System (ROS)"
   value: 80
   label_percent: "80%"
-  color_class: "color-6"
-  animate_effect: "fadeInRight"
-- name: "Java"
-  value: 70
-  label_percent: "70%"
   color_class: "color-7"
+  animate_effect: "fadeInRight"
+- name: "LLMs / VLMs & Prompt Engineering"
+  value: 85
+  label_percent: "85%"
+  color_class: "color-8"
   animate_effect: "fadeInLeft"
 - name: "Matlab/Simulink"
   value: 90
   label_percent: "90%"
-  color_class: "color-8"
+  color_class: "color-9"
   animate_effect: "fadeInRight"
-- name: "LaTeX"
+- name: "Docker & MLOps"
   value: 75
   label_percent: "75%"
-  color_class: "color-9"
-  animate_effect: "fadeInLeft"
-- name: "Controls & dynamics"
-  value: 90
-  label_percent: "90%"
   color_class: "color-10"
-  animate_effect: "fadeInRight"
-- name: "Cooking Mexican cuisine"
+  animate_effect: "fadeInLeft"
+- name: "Cooking Risotto"
   value: 105
   label_percent: "110%"
   color_class: "color-11"
   animate_effect: "fadeInLeft"
-- name: "MS Office"
+- name: "Technical Communication"
   value: 95
   label_percent: "95%"
   color_class: "color-12"
   animate_effect: "fadeInRight"
+- name: "Playing Chess"
+  value: 90
+  label_percent: "90%"
+  color_class: "color-13"
+  animate_effect: "fadeInLeft"

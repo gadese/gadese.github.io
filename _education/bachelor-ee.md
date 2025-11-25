@@ -8,7 +8,7 @@ body_html: |
     <li>Controls (stability, full-state feedback controllers and observers, discretization, real-time systems)</li>
     <li>Signal Processing</li>
     <li>Artificial intelligence and computer vision(classical methods and deep learning)</li>
-    <li>Advanced calculus and probability</li>
+    <li>Advanced calculus, linear algebra and probability</li>
   </ul>
-  <p>I graduated with honors with a <strong>3.84/4.00</strong> GPA and multiple awards.</p>
+  <p>I graduated with honors with a <strong>3.84/4.00 GPA</strong> and multiple awards.</p>
 ---
