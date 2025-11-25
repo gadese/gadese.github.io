@@ -48,9 +48,9 @@ keywords: "robotics, computer vision, facial recognition, assistive technology"
 				<div class="project shadow-large">
 					<div class="project-image">
 						<h3>Demonstration</h3>
-						<iframe width="700" height="375"
-						src="https://www.youtube.com/embed/uChGqovU5gU">
-						</iframe>
+						<iframe style="width:100%; max-width:700px; height:auto; aspect-ratio:16/9;"
+src="https://www.youtube.com/embed/uChGqovU5gU">
+</iframe>
 						<p>Fun fact: My accent has actually improved since!</p>
 					</div>
 				</div>
@@ -59,7 +59,7 @@ keywords: "robotics, computer vision, facial recognition, assistive technology"
 			<div class="row">
 				<div class="project shadow-large">
 					<div class="project-image">
-						<h3>Simple explanation</a></h3>
+						<h3>Simple explanation</h3>
 						<p>The webcam tracks the user's face<br>The system tracks 3 facial expressions: eyebrows up/down, eyes opened/closed, mouth opened/closed.<br>The current detected facial expression is highlighted in blue. When held for a pre-determined period of time, the system highlights the decision in yellow and moves the arm accordingly.<br><br>There are 2 control modes: the first one uses pre-registered movements, such as fetching a bottle on the table. The second one assigns a different joint of the robot arm to all 6 main facial expressions. Then, by tilting the head to the side, the user can move every joint independantly in a direction or the other.
 						</p>
 					</div>
